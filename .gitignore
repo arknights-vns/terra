@@ -1,0 +1,9 @@
+.turbo
+.next
+.source
+node_modules
+.idea
+.vscode
+apps/www/.env
+!.env.example
+out

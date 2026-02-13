@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-vega",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "stone",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "menuColor": "default",
+  "menuAccent": "bold",
+  "aliases": {
+    "components": "@arknights-vns/shadcn-ui/components",
+    "utils": "@arknights-vns/shadcn-ui/lib/utils",
+    "ui": "@arknights-vns/shadcn-ui/components",
+    "lib": "@arknights-vns/shadcn-ui/lib",
+    "hooks": "@arknights-vns/shadcn-ui/hooks"
+  }
+}

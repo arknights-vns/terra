@@ -1,0 +1,35 @@
+{
+  "name": "arknights-vns",
+  "version": "1.0.0",
+  "license": "LGPL-3.0-or-later",
+  "description": "Random stuffs for akvns.org family of websites.",
+  "author": "Arknights Vietnam Station",
+  "homepage": "https://github.com/arknights-vns/akvns.org#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arknights-vns/akvns.org.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.11",
+    "dotenv-cli": "^11.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "ultracite": "^7.1.1"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "format": "biome check . --write",
+    "format:unsafe": "biome check . --write --unsafe",
+    "lint": "biome check .",
+    "dev": "pnpm run -r  --parallel dev",
+    "build": "pnpm run -r --parallel build",
+    "start": "pnpm run -r  --parallel start"
+  },
+  "bugs": {
+    "url": "https://github.com/arknights-vns/akvns.org/issues"
+  },
+  "engines": {
+    "node": "^22 || ^24"
+  },
+  "packageManager": "pnpm@10.28.2"
+}
